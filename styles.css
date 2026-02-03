@@ -1,19 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
+    body {
+  margin-top: 80px;
+}
+font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
 }
-header {
-    background: linear-gradient(to right, #4CAF50, #2196F3); /* Gradiente verde a azul */
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  background: white;
+  z-index: 1000;
 }
+
 .logo {
-    height: 50px;
+  height: 60px;      /* ajusta tamaño */
+  width: auto;
+}
 }
 nav ul {
     list-style: none;
